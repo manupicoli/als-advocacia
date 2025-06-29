@@ -4,7 +4,7 @@ export interface AreaItemInterface {
 
 export default function AreaItem(props: AreaItemInterface) {
     return (
-        <div className="bg-gray-50 p-6 rounded-lg shadow">
+        <div className="bg-gray-50 p-6 rounded-lg shadow" style={{fontFamily: 'sans-serif'}}>
             <h3 className="text-xl font-semibold mb-2">{props.title}</h3>
         </div>
     );
