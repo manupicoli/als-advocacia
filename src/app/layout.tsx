@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import "./styles.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   metadataBase: new URL("https://alsadvocacia.adv.br"),
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body>
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

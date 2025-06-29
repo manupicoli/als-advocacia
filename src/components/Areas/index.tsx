@@ -22,7 +22,7 @@ export default function Areas() {
         <h2 className="text-4xl font-bold mb-6 text-white">
           Conheça nossas áreas de atuação:
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6" >
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           <AreaItem title="Cível"/>
           <AreaItem title="Trabalhista"/>
           <AreaItem title="Previdenciário"/>
