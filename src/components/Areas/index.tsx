@@ -1,20 +1,17 @@
-import { GoLaw } from "react-icons/go";
-import { MdFamilyRestroom } from "react-icons/md";
-import { GrUserWorker } from "react-icons/gr";
 import AreaItem from "../AreaItem";
 
 export default function Areas() {
   return (
     <section
       id="areas"
-      className="relative min-h-200 py-24 flex items-center justify-center"
+      className="relative min-h-screen py-24 flex items-center justify-center"
       style={{ backgroundColor: 'var(--azul-petroleo)' }}
     >
       <div className="absolute z-0">
         <img
           src="/areas.png"
           alt="Fundo áreas"
-          className="w-full h-full object-cover opacity-20"
+          className="w-200 h-200 xl:w-full xl:h-full object-cover opacity-20"
         />
       </div>
 

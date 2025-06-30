@@ -12,6 +12,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;
+}
+
 :root {
   --background: #D2CDC6;
   --foreground: #171717;
@@ -26,7 +32,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'PlayFair';
+  font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;

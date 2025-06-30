@@ -43,8 +43,7 @@ function Navbar() {
 
                 <button
                     onClick={() => window.open('https://wa.me/555499184796', '_blank')}
-                    className="hidden md:flex min-w-max rounded-[24px] px-[22px] py-[10px] cursor-pointer bg-green-600 border-none text-white flex items-center gap-2 text-base hover:bg-green-700 transition-all duration-300"
-                    style={{ fontFamily: 'sans-serif'}}>
+                    className="hidden md:flex min-w-max rounded-[24px] px-[22px] py-[10px] cursor-pointer bg-green-600 border-none text-white flex items-center gap-2 text-base hover:bg-green-700 transition-all duration-300">
                     <FaWhatsapp size={20} />
                     Entre em contato
                 </button>
