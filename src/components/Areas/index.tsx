@@ -5,7 +5,7 @@ export default function Areas() {
     <section
       id="areas"
       className="relative min-h-screen py-24 flex items-center justify-center"
-      style={{ backgroundColor: 'var(--azul-petroleo)' }}
+      style={{ backgroundColor: 'var(--bg-dark-blue)' }}
     >
       <div className="absolute z-0">
         <img

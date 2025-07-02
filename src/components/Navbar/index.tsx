@@ -21,7 +21,7 @@ function Navbar() {
 
     return (
         <header>
-            <nav className="fixed top-0 left-0 w-full bg-[var(--azul-navbar)] backdrop-blur-md text-[var(--bege)] flex justify-between items-center px-[5%] py-[10px] shadow-[0_15px_16px_-7px_rgba(0,0,0,0.1)] z-[90]">
+            <nav className="fixed top-0 left-0 w-full bg-[var(--bg-navbar)] backdrop-blur-md text-[var(--text-color)] flex justify-between items-center px-[5%] py-[10px] shadow-[0_15px_16px_-7px_rgba(0,0,0,0.1)] z-[90]">
                 <Link href="/" className="h-auto flex items-center">
                     <img src="/logo.png" alt="Logo ALS Advocacia" className="h-[50px] w-[50px] min-w-[50px] object-contain shrink-0"/>
                 </Link>
@@ -29,7 +29,7 @@ function Navbar() {
                 <ul className={`${openMenu ? "flex" : "hidden"}
                     flex-col md:flex md:flex-row
                     gap-8 items-center list-none text-center
-                    bg-[var(--azul-navbar)] md:bg-transparent z-40
+                    bg-[var(--bg-navbar)] md:bg-transparent z-40
                     absolute md:static top-[68px] md:top-auto left-0 md:left-auto 
                     w-full md:w-auto p-4 md:p-0 lg:ml-28`}>
                     {items.map((item, index) => (

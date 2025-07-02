@@ -3,11 +3,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-20 min-h-125"
-      style={{
-        backgroundImage:
-          'linear-gradient(to bottom right, var(--fundo-claro), var(--fundo-escuro))',
-      }}
+      className="py-20 min-h-screen"
     >
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-start gap-12 h-full">
         <div className="w-full lg:w-1/2">

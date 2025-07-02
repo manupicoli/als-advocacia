@@ -22,11 +22,11 @@
   --background: #D2CDC6;
   --foreground: #171717;
 
-  --azul-petroleo: #0B1F33;
-  --azul-navbar: rgba(24, 32, 40, 0.9);
-  --bege: #D2CDC6;
-  --fundo-claro: #a0a09e;
-  --fundo-escuro: #8d8d8d;
+  --text-color: #D2CDC6;
+  --bg-dark-blue: #0B1F33;
+  --bg-navbar: rgba(24, 32, 40, 0.9);
+  --bg-light: #a0a09e;
+  --bg-dark: #8d8d8d;
 }
 
 body {
