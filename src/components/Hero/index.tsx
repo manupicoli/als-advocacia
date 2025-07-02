@@ -2,14 +2,13 @@ export default function Hero() {
     return(
         <section
             id="hero"
-            className="relative min-h-125 py-24 flex items-center justify-center"
-            style={{ backgroundColor: 'var(--azul-petroleo)' }}
+            className="relative h-[40vh] sm:h-[60vh] flex items-center justify-center overflow-hidden"
         >
             <div className="absolute inset-0 z-0">
                 <img
-                src="/hero-semfundo.png"
+                src="/banner.png"
                 alt="Capa de início"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-center"
                 />
             </div>
         </section>

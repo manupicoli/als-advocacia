@@ -12,7 +12,7 @@ export default function About() {
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-start gap-12 h-full">
         <div className="w-full lg:w-1/2">
           <img
-            src="/sobre.jpeg"
+            src="/about.jpeg"
             alt="Foto da equipe de advocacia"
             className="rounded-xl w-full max-h-[600px] object-cover"
           />
