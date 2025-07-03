@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import "./styles.css";
+import "../styles/globals.css";
 import Footer from "@/components/Footer";
 
 export const metadata = {
