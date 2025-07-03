@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ALS Advocacia – Website Institucional
 
-## Getting Started
+![Screenshot](./public/home-page.jpeg)
 
-First, run the development server:
+Este é o site institucional da ALS Advocacia, desenvolvido com foco em reunir as principais informações para o cliente e facilitar o contato com o escritório.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Tecnologias utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) – Framework React moderno
+- [Tailwind CSS](https://tailwindcss.com/) – Estilização utilitária
+- [TypeScript](https://www.typescriptlang.org/) – Tipagem estática
+- [React Icons](https://react-icons.github.io/react-icons/) – Ícones leves
+- Fontes personalizadas via `@font-face`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- Página única com seções:
+  - Hero (capa de destaque)
+  - Sobre o escritório
+  - Áreas de atuação
+- Layout responsivo para mobile e desktop
+- Scroll suave entre seções com navbar fixa
+- Imagens otimizadas com carregamento ajustado
+- Design elegante com cores institucionais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔗 Acesse o site
 
-## Deploy on Vercel
+👉 [https://alsadvocacia.adv.br](https://alsadvocacia.adv.br)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✍️ Desenvolvido por
+
+[Manuela Antunes](https://github.com/manupicoli)
