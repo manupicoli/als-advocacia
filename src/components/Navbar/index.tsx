@@ -28,7 +28,7 @@ function Navbar() {
                 
                 <ul className={`${openMenu ? "flex" : "hidden"}
                     flex-col md:flex md:flex-row
-                    gap-8 items-center list-none text-center
+                    gap-4 lg:gap-8 items-center list-none text-center
                     bg-[var(--bg-navbar)] md:bg-transparent z-40
                     absolute md:static top-[68px] md:top-auto left-0 md:left-auto 
                     w-full md:w-auto p-4 md:p-0 lg:ml-28`}>
