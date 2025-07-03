@@ -21,9 +21,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer
-      id="contact"
-      className="w-full px-6 py-12 md:pt-12 flex flex-col items-center text-[var(--bg-dark-blue)]">
+    <footer id="contato" className="w-full px-6 py-12 md:pt-12 flex flex-col items-center text-[var(--bg-dark-blue)]">
       <div className="w-full max-w-xl text-center space-y-4">
         <div className="flex justify-center items-center gap-2">
           <FaPhoneSquareAlt />

@@ -10,9 +10,9 @@ import { FaWhatsapp } from "react-icons/fa";
 function Navbar() {
     const items: NavItemInterface[] = [
         { url: "#hero", label: "Início"},
-        { url: "#about", label: "Sobre" },
+        { url: "#sobre", label: "Sobre" },
         { url: "#areas", label: "Áreas de atuação" },
-        { url: "#contact", label: "Contato"}
+        { url: "#contato", label: "Contato"}
     ];
 
     const pathName = usePathname();
