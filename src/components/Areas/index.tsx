@@ -4,14 +4,13 @@ export default function Areas() {
   return (
     <section
       id="areas"
-      className="relative min-h-screen py-24 flex items-center justify-center"
-      style={{ backgroundColor: 'var(--bg-dark-blue)' }}
+      className="relative min-h-screen py-24 flex items-center justify-center overflow-hidden"
     >
-      <div className="absolute z-0">
+      <div className="absolute inset-0 z-0">
         <img
           src="/areas.png"
           alt="Fundo áreas"
-          className="w-200 h-200 xl:w-full xl:h-full object-cover opacity-20"
+          className="w-full h-full object-cover"
         />
       </div>
 
